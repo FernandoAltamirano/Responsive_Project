@@ -1,0 +1,240 @@
+body{
+    margin:0;
+    background: #f6f6f6;
+    color: white;
+}
+
+/* .header,.presentation,.estudies,.skills,.contact,.footer{
+    border:red 1px solid;
+} */
+
+.header{ 
+    /* max-width: 70%; */
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #f6f6f6;
+}
+
+.header_logo img{
+    margin: 0 50px;
+    margin-right: 300px;
+}
+
+
+.header_link{
+    margin: 10px;
+    color: #212125;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.header_link:hover{
+    text-decoration: underline;
+}
+
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient( #f6f6f6,#212125);
+}
+
+.presentation_content{
+    font-size: 40px;
+    font-family: 'Anton';
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+
+.presentation_image{
+    margin: 30px;
+   
+}
+.presentation_image img{
+    border: white 4px solid;
+    border-radius: 10px;
+}
+.presentation_image img:hover{
+    opacity: 0.5;
+}
+
+.estudies{
+    display: flex;
+    background: #212125;
+}
+
+.estudies_content{
+    margin-left: 50px;
+}
+
+.estudies_content p{
+    font-size: 25px;
+}
+.estudies_image img{
+    margin: 30px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.estudies_image img:hover{
+    opacity: 0.5;
+}
+
+.skills{
+    background: #212125;
+}
+
+.skills_title{
+    display: block;
+    margin: 0 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+}
+.skills_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.skills_item{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.skills_image{
+    margin: 0;
+}
+.skills_image img{
+    border: white 4px solid;
+    border-radius: 10px;
+}
+
+.skills_image img:hover{
+    opacity: 0.5;
+}
+.skills_item-content{
+    border: 1px solid #f6f6f6;
+    color: #212125;
+    background: #f6f6f6;
+    border-radius: 8px;
+    width: 300px;
+    margin-top:-20px;
+    margin-left: 25px;
+    margin-top: -45px;
+    position: relative;
+}
+
+.contact{
+    background: linear-gradient(#212125,#f6f6f6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_title{
+    margin: 30px;
+    margin-left: 50px;
+}
+
+.contact_form{
+    letter-spacing: 2px;
+    display: block;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+.contact_form_input{
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    padding: 10px 30px;
+    outline: none;
+}
+
+
+.contact_form_button{
+    display: block;
+    margin: 20px;
+    margin-left: 80px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    border: white 3px solid;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    transition: 350ms all;
+}
+
+.contact_form_button:hover{
+    transform: scale(1.2);
+    color: #212125;
+    background: #f6f6f6;
+}
+.contact_social{
+    display: flex;
+    margin-right: 100px;
+}
+.contact_social_fb{
+    width: 50px;
+    height: 50px;
+    background-image: url(imagenes/facebook.svg);
+    background-size: 50px 50px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.contact_social_github{
+    width: 50px;
+    height: 50px;
+    background-image: url(imagenes/github.svg);
+    background-size: 50px 50px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.contact_social_instagram{
+    width: 50px;
+    height: 50px;
+    background-image: url(imagenes/instagram.svg);
+    background-size: 50px 50px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer{
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color:#212125;
+}
+
+.footer_created{
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.footer img{
+    margin: 30px;
+    margin-right:80px;
+    margin-bottom: 15px;
+}
+
+.container{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    width: 70%;
+    margin: 0 auto;
+}
