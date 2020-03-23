@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background: #f6f6f6;
+    background: #212125;
     color: white;
 }
 
@@ -38,7 +38,7 @@ body{
 .presentation{
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient( #f6f6f6,#212125);
+    background:#212125
 }
 
 .presentation_content{
@@ -131,7 +131,7 @@ body{
 }
 
 .contact{
-    background: linear-gradient(#212125,#f6f6f6);
+    background: #212125;
     display: flex;
     align-items: center;
     justify-content: space-between;
